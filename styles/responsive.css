@@ -1,0 +1,43 @@
+/* 
+    RESPONSIVE DESIGN FOR SUPPORTED IN ALL DEVICES
+ */
+
+/* FOR SMALL DEVICES LANDSCAPE MODE AND TABLET MODE */
+@media only screen and (min-width:577px) and (max-width:992px) {
+
+    /* Header Started */
+    /* Navbar */
+    .navbar {
+        padding: 15px 5px;
+    }
+
+    .carousel-heading {
+        transform: translate(150%, 550%);
+    }
+
+    .next-icon,
+    .prev-icon {
+        font-size: 7vw;
+    }
+    /* Header Completed */
+}
+
+/* FOR SMALL MOBILE DEVICES AND POTRAIT MODE */
+@media only screen and (max-width:576px) {
+
+    /* Header Started */
+    /* Navbar */
+    .navbar {
+        padding: 15px 5px;
+    }
+
+    .carousel-heading {
+        transform: translate(100%, 550%);
+    }
+
+    .next-icon,
+    .prev-icon {
+        font-size: 7vw;
+    }
+    /* Header Completed */
+}

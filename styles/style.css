@@ -1,0 +1,80 @@
+/* External Font Style */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    /* For Light Mode */
+    --primaryColor: black;
+
+    /* For Dark Mode */
+    --secondaryColor: white;
+
+    /* Used For website */
+    --thirdColor: yellow;
+    --forthColor: green;
+
+}
+
+/* Header Started */
+/* Styling the Navbar */
+.navbar {
+    padding: 20px 50px;
+    background: #070000;
+    background: -webkit-linear-gradient(to right, #070000, #4C0001, #070000);
+    background: linear-gradient(to right, #070000, #4C0001, #070000);
+}
+.navbar-toggler{
+    border: hidden;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.my-toggler-icon{
+    font-size: 25px;
+    margin-top: 8px;
+    color: white;
+}
+#dark,#light{
+    cursor: pointer;
+}
+#xmark{
+    display: none;
+}
+
+/* Carosoul ITEM */
+.carousel-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.123) 0%, rgba(0, 0, 0, 0.795) 100%);
+  }
+  
+  #carouselExampleAutoplaying{
+    position: relative;
+  }
+  .carousel-heading{
+    position: absolute;
+    font-weight: bold;
+    font-size: 5vw;
+    color: rgb(42, 253, 0);
+    transform: translate(550px,500px);
+    z-index: 1;
+  }
+  .carousel-heading span{
+    padding: 0px 12px;
+    border-left: 8px solid yellow;
+  }
+ 
+.next-icon,.prev-icon {
+    font-size: 52px;
+    color: yellow;
+  }
+
+  /* Completed Header Portion */
